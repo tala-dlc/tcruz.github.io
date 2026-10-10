@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tala De La Cruz | Personal Website</title>
+    <meta name="description" content="Portfolio of Tala De La Cruz, an Applied Mathematics student at UC Berkeley concentrating in Financial Engineering. Explore academic projects, personal interests, and contact information.">
+    <link rel="canonical" href="https://tcruz.com/">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Tala De La Cruz | Applied Mathematics Portfolio">
+    <meta property="og:description" content="Portfolio of Tala De La Cruz, an Applied Mathematics student at UC Berkeley concentrating in Financial Engineering.">
+    <meta property="og:url" content="https://tcruz.com/">
+    <meta property="og:image" content="https://tcruz.com/T.Cruz.jpg">
+    <meta property="og:site_name" content="Tala De La Cruz">
+
+    <link rel="stylesheet" href="style.css">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Tala De La Cruz",
+        "url": "https://tcruz.com/",
+        "jobTitle": "Applied Mathematics Student",
+        "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "University of California, Berkeley"
+        },
+        "email": "mailto:dlcruz.tala@gmail.com"
+    }
+    </script>
+</head>
+<body>
+    <nav class="site-nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="mathematics.html">Mathematics</a>
+        <a href="interests.html">Interests</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="photos">
+            <img src="T.Cruz.jpeg" alt="T. Cruz"> 
+    </div>
+    <h1>
+        T. Cruz
+    </h1>
+    <p>
+        Hello, welcome to my page! :) 
+    </p>
+    <h2>
+        About this page
+    </h2>
+    <p>
+        Here you can find different things I've worked on, categorized into academic projects, entrepreneurial endeavors, 
+        random thoughts, and personal interests or curiosities. My hope is that this inspires you to be curious and to 
+        constantly convince yourself to do more than you think you're capable of. We limit ourselves in many ways, and it becomes an  
+        unfortunate self-fulfilling prophecy. This is my attempt to break that cycle, and I hope it inspires you to do the same.
+    </p>
+    <p>
+        Feel free to reach out to me with any questions, comments, or just to say hi! I would love to discuss any topics in further detail 
+        and am open to suggestions or collaborations.
+    </p>
+    <p>
+        <a href="about.html"> About me</a> 
+    </p>
+    <p>
+        <a href="De La Cruz, Tala_Resume.pdf" target="_blank"> Curriculum Vitae </a>
+    </p>
+    <p>
+        <a href="mathematics.html"> Mathematical projects</a> 
+    </p>
+    <p>
+        <a href="interests.html"> Interests and random thoughts </a>
+    </p>
+    <p>
+        <a target="_blank" href="mailto:dlcruz.tala@gmail.com"> Contact me through email </a>
+    </p>
+    <footer class="site-footer">
+        <hr class="footer-divider">
+        <p id="last-updated" class="footnote"></p>
+    </footer>
+    <script>
+    // Fetch the last modified date of the document
+    var lastModifiedDate = new Date(document.lastModified);
+    
+    // Format the date (e.g., July 2 2026)
+    var options = { year: 'numeric', month: 'long', day: 'numeric' };
+    var formattedDate = lastModifiedDate.toLocaleDateString('en-US', options);
+    
+    // Insert the date into the HTML placeholder
+    document.getElementById("last-updated").textContent = "Last updated: " + formattedDate;
+</script>
+</body>
+</html>
