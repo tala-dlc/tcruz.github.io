@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://tcruz.com/</loc>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://tcruz.com/about.html</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://tcruz.com/mathematics.html</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://tcruz.com/interests.html</loc>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://tcruz.com/contact.html</loc>
+        <priority>0.6</priority>
+    </url>
+</urlset>
